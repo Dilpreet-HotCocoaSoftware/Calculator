@@ -96,7 +96,7 @@ class CalculatorViewController: UIViewController {
         userIsInTheMiddleOfTypingNumber = false
     }
     
-    //Bring the calculator to its initial state
+    //Bring the calculator to its initial state as it was in the start
     @IBAction func clear() {
         brain.setOperand("")
         brain.clear()

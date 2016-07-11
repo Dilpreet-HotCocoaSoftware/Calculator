@@ -140,7 +140,7 @@ class calculatorBrain {
         }
     }
     
-    
+    //Called every time an operator is encountered
     func performOperation(symbol: String) {
         internalProgram.append(symbol)
         if let operation = operations[symbol] {
